@@ -20,19 +20,20 @@ namespace DegerVeReferansTipler
             sayilar2[0] = 999;
             //sayilar1[0] 999
 
-            //int-decimal-fload-double-bool=değer tip,
-            //array,class,interface= referans tip
+            //int-decimal-fload-double-bool= Değer tip,
+            //array,class,interface= Referans tip
 
             // peki bunlar nasıl çalışıyorlar?
             //bellekte stack ve heap ike tane alan vardır.
             //değer tip olanlar stack'te gerçekleşir. örnek:sayi1=10 herşey stackta gerçekleşir.
-            //sayi 1 in değeri eşittir sayi2 değeri. sadece değer aktar öbür bağlantı kopar.(değer kopyalar iş biter)
+            //sayi 1 in değeri eşittir sayi2 değeri. sadece değer aktar öbür bağlantı kopar.(değer kopyalar iş biter) yani 30' dur. bağlantın kopar sayi2 65 olması önemli değildir.
             
 
             //değer tipler sadece Stack' gerçekleşir.
             //new demek bellekten yeni bir adres ve yer oluşturmak demektir.
             // sayilar 1 in sayilar 2 nin referans numarasına eşittir diye okunmalı.
             //pointer ismi ile çıkar "C" gibi dillerde.
+            // sayilar 1 = new int - new demek yeni bir alan oluştur ve sayıları oraya yaz. (heap) ' te bir adres değeri tutulur.
 
         }
     }
