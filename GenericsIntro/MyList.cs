@@ -36,7 +36,9 @@ namespace GenericsIntro
             //1 elemanlı yeni bir dize oluştu ( lenght ne 0 sende +1 yaptın 1 elemanlı dize oluştu
             //daha önce eklediğin değer gide runutma (stack, heap ) bunun içinde tempArray diyoruz geçici değer oluştur benim değerimi tut ben unutmayım diye mantık bu şekilde işler.
             // for ' ben sana emanetten değer verdim sende onları bana geri versene diyorsun. ( yani değerler yine aynı şekilde orda kalıyor)
-            // items[items.Length - 1] = item; ( Add T item) son itemi boş kalan yere ekledik. 
-        }
+            // items[items.Length - 1] = item;   (önceden zaten Lenght+1 yaptığın için total 6 oldu(0 dan başlıyor ise) -1 yazarak 5 tane kaldı bu seferde yukardaki Add item yazdık onuda boş kalan yere bu kod sayesinde ekleyebilirsin.)
+
+        public int MyProperty { get; set; }
+    }
     }
 }
